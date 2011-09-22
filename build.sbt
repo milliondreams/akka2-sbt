@@ -16,7 +16,10 @@ seq(webSettings :_*)
 	val akkaVersion = "2.0-SNAPSHOT"
 	libraryDependencies ++= Seq(
 		"se.scalablesolutions.akka" % "akka-actor" % akkaVersion,
-	 	"se.scalablesolutions.akka" % "akka-http" % akkaVersion
+                "se.scalablesolutions.akka" % "akka-http" % akkaVersion
 	)
 }
 
+libraryDependencies ++= Seq(
+  "org.mortbay.jetty" % "jetty" % "6.1.22" % "jetty"
+)
