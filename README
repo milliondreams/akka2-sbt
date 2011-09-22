@@ -1,0 +1,7 @@
+# SBT 0.10.1 base template for Akka 2.0-SNAPSHOT projects.
+
+This is nuclear! use at your own risk!!!
+
+I use this with my local build of Akka 2.0, hence no repos added. 
+
+Plugins has my regular set of plugins - xsbt-web, sbteclipse, netbeans
